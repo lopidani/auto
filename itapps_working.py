@@ -293,7 +293,7 @@ class AUTO(object):
                  self.edit_errors("Function check_network ==> {}".format("Nu avem internet !")+'\n',self.lf)
                                                  
       def clear_pdf(self):
-          # since pdf file is personalized we must delete it
+          # since pdf file is personalized we must delete the file
           if release != "testing no email":    
              try:
                  os.remove(file)
